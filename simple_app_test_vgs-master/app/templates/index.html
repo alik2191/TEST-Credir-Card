@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Your credit card details</h1>
+<form method="post" action="/add_message">
+   <input type="text" name="message" placeholder="Enter card number">
+   <input type="text" name="message" placeholder="Validity period">
+   <input type="text" name="message" placeholder="CVV">
+    <button type="submit"> Send</button>
+</form>
+
+{% endblock %}
